@@ -1,4 +1,4 @@
-`use strict`
+`use strict`;
 alert("Let's get to know each other.");
 var yourName = prompt("what's your name?");
 alert('welcome ' + yourName);
@@ -121,4 +121,5 @@ loop: {
     }
 }
 alert("the correct answers 6th and 7th quastions is " + '3 for the 6th and ' + myChar + " for the 7th");
-alert('your score is ' + score + 'of 7' + " thank you for your time");
+var yourName;
+alert("good job and welcome ^-^ " + yourName + " your score is " + score + " of 7.");
