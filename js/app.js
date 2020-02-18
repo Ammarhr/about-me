@@ -1,4 +1,4 @@
-`use strict`
+`use strict`;
 alert("Let's get to know each other.");
 var yourName = prompt("what's your name?");
 var myNationality = prompt(" my nationality is syrian?", "yes, no , y, n");
