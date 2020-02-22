@@ -1,13 +1,25 @@
 body {
-    background-color: rgb(245, 156, 39);
+    background-image: url("https://www.itl.cat/pngfile/big/14-141321_wallpaper-brown-shadow-background-black-brown-to-black.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 header {
+    background-image: url("/img/my\ brown\ nav.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
-    font-size: xx-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-family: 'Federant';
     color: rgb(252, 164, 33);
-    background-color: rgb(110, 45, 2);
+    /* background-color: rgb(110, 45, 2); */
+    padding-bottom: 0px;
+    padding-top: 3px;
+    position: sticky;
+    left: 0px;
+    right: 0px;
+    top: 0px;
 }
 
 #myImage h1 {
@@ -15,9 +27,12 @@ header {
     font-size: larger;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(252, 164, 33);
-    background-color: rgb(110, 45, 2);
+    /* background-color: rgb(110, 45, 2); */
+    background-image: url("/img/my\ brown\ nav.jpg");
     border: 2px solid rgb(53, 35, 2);
     padding: 6px;
+    position: static;
+    top: 85px;
 }
 
 #extra h2 {
@@ -25,18 +40,36 @@ header {
     font-size: larger;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(252, 164, 33);
-    background-color: rgb(110, 45, 2);
+    background-image: url("/img/my\ brown\ nav.jpg");
+    /* background-color: rgb(110, 45, 2); */
     border: 2px solid rgb(53, 35, 2);
     padding: 6px;
+    position: static;
 }
 
 .addInfo h3 {
     text-align: left;
     font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(252, 164, 33);
-    background-color: rgb(110, 45, 2);
+    /* background-color: rgb(110, 45, 2); */
+    background-image: url("/img/my\ brown\ nav.jpg");
     border: 2px solid rgb(53, 35, 2);
     padding: 6px;
+    position: static;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    padding: 3px;
+    padding-bottom: 7px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(252, 164, 33);
+    padding-bottom: 7px;
 }
 
 #myImage img {
@@ -51,6 +84,7 @@ header {
 #sortInfo {
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(189, 123, 23);
     border: rgb(129, 78, 0) solid 6px;
     display: block;
     margin-block-start: 6em;
@@ -62,6 +96,7 @@ header {
 #extraInfo {
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(189, 123, 23);
     border-left: solid rgb(129, 78, 0);
     padding-left: 10px;
     margin-inline-start: 5px;
@@ -71,6 +106,7 @@ header {
 .addInfo li {
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(189, 123, 23);
     border-left: solid rgb(129, 78, 0);
     padding-left: 10px;
     margin-inline-start: 5px;
@@ -78,5 +114,24 @@ header {
 }
 
 footer {
-    text-align: right;
+    /* background-color: rgb(110, 45, 2); */
+    background-image: url("/img/my\ brown\ nav.jpg");
+    border: solid rgb(75, 49, 0);
+    padding: 8px;
+    color: rgb(230, 149, 28);
+    text-align: center;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(54, 24, 0);
+    font-size: 110%;
+}
+
+#myImage img:hover {
+    opacity: .80;
+}
+
+header:hover {
+    opacity: .90;
 }
