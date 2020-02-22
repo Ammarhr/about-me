@@ -1,12 +1,12 @@
 body {
-    background-image: url("/img/my\ brown\ nav.jpg");
+    background-image: url("/img/newbrown.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 }
 
 header {
-    background-image: url("https://lh3.googleusercontent.com/proxy/2O6M2zLOaQQVv0wXbseE0dFrgNQH0BkHa0bOszQFV4cmPenO_kEXao8GC51t9DxmnAGhBdxhhQUjJPD-2iSroqLqn6brVYuFuGHLwMKndwZnvq_FLSrXxiOPad30EjQuvWMmjDJD_GbMeiWaPvZGybTj9ddOOQ");
+    background-image: url("/img/my\ brown\ nav.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
