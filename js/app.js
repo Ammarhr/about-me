@@ -174,11 +174,10 @@ function gus() {
 }
 gus();
 
-function ale() {
-      var myChar = ['batman', 'superman', 'joker', 'harley', 'darkside', 'flash'];
+
+    var myChar = ['batman', 'superman', 'joker', 'harley', 'darkside', 'flash'];
     alert("the correct answers 6th and 7th quastions is " + '3 for the 6th and ' + myChar + " for the 7th");
     var yourName;
     var score:
     alert(`I'm Ammar Al Hariry the oener of this site. nice to meet you ${yourName} ^-^. your score is ${score} of 7.`);
-}
-ale();
+
