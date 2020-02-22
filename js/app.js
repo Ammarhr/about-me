@@ -21,6 +21,7 @@ function myNat() {
             alert("please type the answer!");
     }
 }
+myNat();
 
 function age() {
 
@@ -39,6 +40,7 @@ function age() {
             alert("please type the answer!");
     }
 }
+age();
 
 function grads() {
     var myGrads = prompt("my job is football player?", "yes, no , y, n");
@@ -56,6 +58,7 @@ function grads() {
             alert("please type the answer!");
     }
 }
+grads();
 
 function club() {
     var myClub = prompt("my fav club is barcelona?", "yes, no , y, n");
@@ -73,6 +76,7 @@ function club() {
             alert("please type the answer!");
     }
 }
+club();
 
 function film() {
     var favFilm = prompt("my fav film is Batman?", "yes, no , y, n");
@@ -91,6 +95,7 @@ function film() {
             alert("please type the answer!");
     }
 }
+film();
 
 function lang() {
     var numLang = Number(prompt('who many language I talk? 1, 2, 3, or 4'))
@@ -116,6 +121,7 @@ function lang() {
         }
     }
 }
+lang();
 
 // first way:
 // var newGus = 0;
@@ -167,18 +173,10 @@ function gus() {
         var correct = (prompt("what is my favorite characters in DC?")).toLowerCase();
     }
 }
-
-function ale() {
-    alert("the correct answers 6th and 7th quastions is " + '3 for the 6th and ' + myChar + " for the 7th");
-    var yourName;
-    alert(`I'm Ammar Al Hariry the oener of this site. nice to meet you ${yourName} ^-^. your score is ${score} of 7.`);
-}
-
-myNat();
-age();
-grads();
-club();
-film();
-lang();
 gus();
-ale();
+
+var myChar = ['batman', 'superman', 'joker', 'harley', 'darkside', 'flash'];
+alert("the correct answers 6th and 7th quastions is " + '3 for the 6th and ' + myChar + " for the 7th");
+var score;
+var yourName;
+alert(`I'm Ammar Al Hariry the owner of this site. nice to meet you ${yourName} ^-^. your score is ${score} of 7.`);
