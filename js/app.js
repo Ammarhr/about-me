@@ -159,6 +159,7 @@ function gus() {
 
             if (correct == myChar[x]) {
                 alert(`good jop my friend. ${correct} is on of them. you are the best!!!`);
+                score = score + 1;
                 var answer7 = 'a';
             }
         }
